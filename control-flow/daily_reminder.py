@@ -1,4 +1,3 @@
-
 # daily_reminder.py
 
 # Step 1: Get input
@@ -20,8 +19,4 @@ match priority:
 # Step 3: Add time-sensitivity detail
 if time_bound == "yes":
     message = base + " that requires immediate attention today!"
-else:
-    message = base + ". Consider completing it when you have free time."
 
-# Step 4: Output the message
-print(message)
